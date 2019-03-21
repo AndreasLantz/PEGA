@@ -10,29 +10,52 @@
 
 <body>
 
-	<div class="header">
+	<div id="header">
 		<p>Andreas Lantz XML</p>
 	</div>
 
-	<div class="tile">
-		<img src="img/xml.svg" class="tileImage" />
-		<div class="overlay">
-			<div class="overlayText">Download individual files</div>
-		</div>
-	</div>
-	<div class="tile"> 
-		<img src="img/doc.svg" class="tileImage" />
-		<div class="overlay">
-			<div class="overlayText">Download project description</div>
-		</div>
-	</div>
-	<div class="tile"> 
-		<img src="img/zip.svg" class="tileImage" />
-		<div class="overlay">
-			<div class="overlayText">Download everything as .ZIP</div>
-		</div>
-	</div>
+	<div id="wrapper"> <!-- Flexbox wrapper start -->
 
+
+
+		<div class="tile">
+			<img src="img/xml.svg" class="tileImage" />
+			<a href="#popup1"><div class="overlay">
+				<div class="overlayText">Download individual files</div>
+			</div></a>
+		</div>
+
+
+		<div class="tile"> 
+			<img src="img/doc.svg" class="tileImage" />
+			<div class="overlay">
+				<div class="overlayText">Download project description</div>
+			</div>
+		</div>
+		<div class="tile"> 
+			<img src="img/zip.svg" class="tileImage" />
+			<div class="overlay">
+				<div class="overlayText">Download everything as .ZIP</div>
+			</div>
+		</div>
+	
+	</div> <!-- Flexbox wrapper end -->
+	
+	<div id="popup1" class="popup">
+	<div class="popupContent">
+		<h2>Choose your files below</h2>
+		<a class="popupClose" href="#">&times;</a>
+		<div class="downloadItem">
+		
+		</div>
+	</div>
+</div>
+	
+	
+	<div id="footer">
+	
+	</div>
+	
 </body>
 
 </html>
