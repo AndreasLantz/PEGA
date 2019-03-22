@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <receipt
-xmlns="https://andreaslantz.github.io/PEGA/"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://andreaslantz.github.io/PEGA/ https://andreaslantz.github.io/PEGA/schema.xsd">
+xmlns="xs:https://andreaslantz.github.io/PEGA/"  
+xsi:schemaLocation="xs:https://andreaslantz.github.io/PEGA/ files/schema.xsd">
 	<header>
 		<image>
 			<src></src>
@@ -21,8 +20,6 @@ xsi:schemaLocation="https://andreaslantz.github.io/PEGA/ https://andreaslantz.gi
 		<registrationId></registrationId>
 		<email></email>
 		<phone></phone>
-		<text></text>
-		<text></text>
 		<text></text>
 	</header>
 	<transaction>
@@ -73,12 +70,10 @@ xsi:schemaLocation="https://andreaslantz.github.io/PEGA/ https://andreaslantz.gi
 				</item>
 		</items>
 		<text></text>
-		<text></text>
 		<discounts>
 			<text></text>
 			<discountAmount></discountAmount>
 		</discounts>
-		<text></text>
 		<text></text>
 		<totalItems></totalItems>
 		<amountDue currency=""></amountDue>
@@ -105,9 +100,7 @@ xsi:schemaLocation="https://andreaslantz.github.io/PEGA/ https://andreaslantz.gi
 				<contactless></contactless>
 			</card>
 			<text></text>
-			<text></text>
 		</paymentDetails>
-		<text></text>
 		<text></text>
 		<totalTax>
 			<taxLevel>
@@ -131,10 +124,6 @@ xsi:schemaLocation="https://andreaslantz.github.io/PEGA/ https://andreaslantz.gi
 		</totalTax>
 	</transaction>
 	<footer>
-		<text></text>
-		<text></text>
-		<text></text>
-		<text></text>
 		<text></text>
 		<cashier>
 			<cashierId></cashierId>
