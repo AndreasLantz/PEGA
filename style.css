@@ -27,6 +27,8 @@ a {
 		grid-template: auto / 30% auto 10% 10% 10%;
 	-ms-grid-row: 1;
 	-ms-grid-row-span: 1;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 1;
 	grid-row: 1 / span 1;
 	position: relative;
 	width: 100%;
