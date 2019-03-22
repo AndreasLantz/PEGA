@@ -1,3 +1,4 @@
+/* GitHub ref=1" */
 html {
 	height: 100%;
 }
@@ -102,6 +103,8 @@ a {
 	display: -ms-grid;
 	display: grid;
 	grid: auto / 15px 1fr 1fr 1fr 15px;
+	-ms-grid-rows: auto;
+	-ms-grid-columns: 15px 1fr 1fr 1fr 15px;
 	gap: 30px;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
@@ -244,6 +247,8 @@ a {
 	display: -ms-grid;
 	display: grid;
 	grid: 25% 50% 25% / 30px auto 60px;
+	-ms-grid-rows: 25% 50% 25%;
+	-ms-grid-columns: 30px auto 60px;
 	position: relative;
 	width: 100%;
 	border: 3px solid rgba(0,0,0,.1);
@@ -293,6 +298,8 @@ a {
 	display: -ms-grid;
 	display: grid;
 	grid: auto / auto;
+	-ms-grid-rows: auto;
+	-ms-grid-columns: auto;
 	-ms-grid-row: 5;
 	-ms-grid-row-span: 1;
 	grid-row: 5 / span 1;
