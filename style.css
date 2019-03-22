@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	min-height: 100%;
+	display: -ms-grid;
 	display: grid;
 	grid: auto 30px auto 1fr auto / auto;
 }
@@ -16,8 +17,13 @@ a {
 }
 
 #header {
+	display: -ms-grid;
 	display: grid;
-	grid-template: auto / 30% auto 10% 10% 10%;
+	-ms-grid-rows: auto;
+	-ms-grid-columns: 30% auto 10% 10% 10%;
+	    grid-template: auto / 30% auto 10% 10% 10%;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
 	grid-row: 1 / span 1;
 	position: relative;
 	width: 100%;
@@ -33,49 +39,73 @@ a {
 }
 
 #header > a:first-child {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2 / span 1;
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: center;
 	place-self: center;
 
 }
 
 #header > p {
+	-ms-grid-column: 3;
+	-ms-grid-column-span: 1;
 	grid-column: 3 / span 1;
-	align-self: center;
-	justify-self: end;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+	-ms-grid-column-align: end;
+	    justify-self: end;
 }
 
 #se {
+	-ms-grid-column: 4;
+	-ms-grid-column-span: 1;
 	grid-column: 4 / span 1;
-	align-self: center;
-	justify-self: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+	-ms-grid-column-align: center;
+	    justify-self: center;
 }
 
 #en {
+	-ms-grid-column: 5;
+	-ms-grid-column-span: 1;
 	grid-column: 5 / span 1;
-	align-self: center;
-	justify-self: start;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
+	-ms-grid-column-align: start;
+	    justify-self: start;
 }
 
 .flagItem {
 	width: 100px;
 	border: 3px solid rgba(0,0,0,.1);
-	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
 .flagItem:hover {
-	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	    transform: scale(1.1);
 	cursor: pointer;
 }
 
 #wrapper {
+	display: -ms-grid;
 	display: grid;
 	grid: auto / 15px 1fr 1fr 1fr 15px;
 	gap: 30px;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
 	grid-row: 3 / span 1;
 }
 
@@ -89,30 +119,36 @@ a {
 }
 
 #tile1 {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2 / span 1;
 }
 
 #tile2 {
+	-ms-grid-column: 3;
+	-ms-grid-column-span: 1;
 	grid-column: 3 / span 1;
 }
 
 #tile3 {
+	-ms-grid-column: 4;
+	-ms-grid-column-span: 1;
 	grid-column: 4 / span 1;
 }
 
 .tileImage {
 	display: block;
 	width: 100%;
-	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	padding: 10px 0 10px 0;
 }
 
 .tile:hover .tileImage {
-	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	    transform: scale(1.1);
 	cursor: pointer;
 }
 
@@ -126,8 +162,8 @@ a {
 	right: 0;
 	bottom: 0;
 	background-color: rgba(0,0,0,0.7);
-	-moz-transition: 0.3s;
 	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
 	transition: 0.3s;
 	
 }
@@ -143,7 +179,8 @@ a {
 	left: 50%;
 	font-size: 60px;
 	color: white;
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 }
 
@@ -154,6 +191,8 @@ a {
 	left: 0;
 	right: 0;
 	background: rgba(0, 0, 0, 0.7);
+	-webkit-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 	visibility: hidden;
 	opacity: 0;
@@ -171,6 +210,8 @@ a {
   border-radius: 5px;
   width: 40%;
   position: relative;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
@@ -183,6 +224,8 @@ a {
   position: absolute;
   top: 20px;
   right: 30px;
+  -webkit-transition: all 200ms;
+  -o-transition: all 200ms;
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
@@ -196,6 +239,7 @@ a {
 
 
 .downloadItem {
+	display: -ms-grid;
 	display: grid;
 	grid: 25% 50% 25% / 30px auto 60px;
 	position: relative;
@@ -204,32 +248,51 @@ a {
 	border-radius: 5px;
 	height: auto;
 	margin-top: 15px;
+	-webkit-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 }
 
 .downloadItem:hover {
 	background: rgba(0,0,0,.1);
+	-webkit-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 }
 
 .downloadItem p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2 / span 1;
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2 / span 1;
-	align-self: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 }
 
 .downloadItem img {
+	-ms-grid-column: 3;
+	-ms-grid-column-span: 1;
 	grid-column: 3 / span 1;
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2 / span 1;
-	align-self: center;
+	-ms-flex-item-align: center;
+	    -ms-grid-row-align: center;
+	    align-self: center;
 	width: 100%;
 }
 
 #footer {
+	display: -ms-grid;
 	display: grid;
 	grid: auto / auto;
+	-ms-grid-row: 5;
+	-ms-grid-row-span: 1;
 	grid-row: 5 / span 1;
 	background: #157EFB;
 	color: white;
@@ -240,8 +303,14 @@ a {
 #footer p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 1;
 	grid-column: 1 / span 1;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
 	grid-row: 1 / span 1;
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: center;
 	place-self: center;
 }
 
@@ -259,7 +328,9 @@ a {
 @media screen and (max-width: 1400px) {
 
 #header {
-	grid-template: auto / 40% 20% 20% 20%;
+	-ms-grid-rows: auto;
+	-ms-grid-columns: 40% 20% 20% 20%;
+	    grid-template: auto / 40% 20% 20% 20%;
 }
 
 #header p {
@@ -267,25 +338,38 @@ a {
 }
 
 #header > a:first-child {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 1;
 	grid-column: 1 / span 1;
 }
 
 #header > p {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2 / span 1;
 }
 
 #se {
+	-ms-grid-column: 3;
+	-ms-grid-column-span: 1;
 	grid-column: 3 / span 1;
 }
 
 #en {
+	-ms-grid-column: 4;
+	-ms-grid-column-span: 1;
 	grid-column: 4 / span 1;
 }	
 
 #wrapper {
+	display: -ms-grid;
 	display: grid;
 	grid: 1fr 1fr 1fr / 15px 1fr 15px;
-	justify-content: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
 	grid-row: 3 / span 1;
 }
 
@@ -294,17 +378,29 @@ a {
 }
 
 #tile1 {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2 / span 1;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
 	grid-row: 1 / span 1;
 }
 
 #tile2 {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2 / span 1;
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2 / span 1;
 }
 
 #tile3 {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2 / span 1;
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
 	grid-row: 3 / span 1;
 }
 
@@ -327,7 +423,9 @@ a {
 @media screen and (max-width: 650px) {
 
 #header {
-	grid-template: 1fr 1fr / 30% 35% 35%;
+	-ms-grid-rows: 1fr 1fr;
+	-ms-grid-columns: 30% 35% 35%;
+	    grid-template: 1fr 1fr / 30% 35% 35%;
 }
 
 #header p {
@@ -335,26 +433,45 @@ a {
 }
 
 #header > a:first-child {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 3;
 	grid-column: 1 / span 3;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
 	grid-row: 1 / span 1;
-	justify-self: center;
+	-ms-grid-column-align: center;
+	    justify-self: center;
 }
 
 #header > p {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 1;
 	grid-column: 1 / span 1;
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2 / span 1;
 }
 
 #se {
+	-ms-grid-column: 2;
+	-ms-grid-column-span: 1;
 	grid-column: 2 / span 1;
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2 / span 1;
-	justify-self: end
+	-ms-grid-column-align: end;
+	    justify-self: end
 }
 
 #en {
+	-ms-grid-column: 3;
+	-ms-grid-column-span: 1;
 	grid-column: 3 / span 1;
+	-ms-grid-row: 2;
+	-ms-grid-row-span: 1;
 	grid-row: 2 / span 1;
-	justify-self: center;
+	-ms-grid-column-align: center;
+	    justify-self: center;
 }	
 
 .overlayText {
