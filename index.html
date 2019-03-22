@@ -5,6 +5,7 @@
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <meta charset="UTF-8">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/ie.js"></script>
 <title>XML Project</title>
 </head>
 
@@ -13,8 +14,8 @@
 	<div id="header">
 		<a href="index.html"><p>Andreas Lantz XML</p></a>
 		<p id="language">Language</p>
-		<img id="se" src="img/se.svg" />
-		<img id="en" src="img/en.svg" />
+		<img id="se" class="flagItem" src="img/se.svg" />
+		<img id="en" class="flagItem" src="img/en.svg" />
 		
 	</div>
 
@@ -28,19 +29,17 @@
 				<div class="overlayText">Download individual files</div>
 			</div></a>
 		</div>
-
-
 		<div id="tile2" class="tile"> 
 			<img src="img/doc.svg" class="tileImage" />
-			<div class="overlay">
+			<a href="#popup2"><div class="overlay">
 				<div class="overlayText">Download project description</div>
-			</div>
+			</div></a>
 		</div>
 		<div id="tile3" class="tile"> 
 			<img src="img/zip.svg" class="tileImage" />
-			<div class="overlay">
+			<a href="structure.xml" download="structure"><div class="overlay">
 				<div class="overlayText">Download everything as .ZIP</div>
-			</div>
+			</div></a>
 		</div>
 	
 	</div> <!-- Tile grid wrapper end -->
@@ -49,13 +48,50 @@
 		<div class="popupContent">
 			<h2>Choose your files below</h2>
 			<a class="popupClose" href="#">&times;</a>
+			
+			<a href="schema.xsd" download="schema"><div class="downloadItem">
+				<p>XSD Schema</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
 			<a href="structure.xml" download="structure"><div class="downloadItem">
 				<p>Empty XML Structure</p>
 				<img src="img/downloadIcon.svg" />
 			</div></a>
 			
-			<a href="structure.xml" download="structure"><div class="downloadItem">
+			<a href="receipt1.xml" download="receipt1"><div class="downloadItem">
 				<p>Example XML Structure - Willys Receipt</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="receipt2.xml" download="receipt2"><div class="downloadItem">
+				<p>Example XML Structure - Tempo Receipt</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="receipt3.xml" download="receipt3"><div class="downloadItem">
+				<p>Example XML Structure - TeB Receipt</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="receipt4.xml" download="receipt4"><div class="downloadItem">
+				<p>Example XML Structure - Matboden Receipt</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+		</div>
+	</div>
+	
+	<div id="popup2" class="popup">
+		<div class="popupContent">
+			<h2>Choose your files below</h2>
+			<a class="popupClose" href="#">&times;</a>
+			<a href="structure.xml" download="structure"><div class="downloadItem">
+				<p>Project description as .docx</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="receipt1.xml" download="receipt1"><div class="downloadItem">
+				<p>Project description as .pdf</p>
 				<img src="img/downloadIcon.svg" />
 			</div></a>
 		</div>
