@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receipt
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="schema.xsd">
+	<header>
+		<image>
+			<src>yoursourcehere.xxx</src>
+			<height units="xxx"></height>
+			<width units="xxx"></width>
+			<title>yourlogonamehere</title>
+		</image>
+		<storeName>The English Bookshop</storeName>
+		<address>
+			<street>Svartbacksgatan 19</street>
+			<city>Uppsala</city>
+		</address>
+		<organizationNumber>5565162418</organizationNumber>
+		<registrationId>0000000000000001</registrationId>
+		<email>info@bookshop.se</email>
+		<phone>018-10 05 10</phone>
+		<text>Visit us at www.bookshop.se</text>
+	</header>
+	<transaction>
+		<items>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>1</itemId>
+					<itemName>Books/Böcker</itemName>
+					<itemPrice currency="SEK">430,00</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">430,00</totalItemPrice>
+					<vat>
+						<vatPercent>6</vatPercent>
+					</vat>
+				</item>
+		</items>
+		<text>1.00xITEMs</text>
+		<totalItems>1</totalItems>
+		<amountDue currency="SEK"></amountDue>
+		<paymentDetails>
+			<card>
+				<amountReceived currency="SEK">430,00</amountReceived>
+				<ref>B5FD3000000009913</ref>
+				<runNumber>000000160882</runNumber>
+			</card>
+		</paymentDetails>
+		<totalTax>
+			<taxLevel>
+				<vatPercentage>6</vatPercentage>
+				<vatTotal>24,34</vatTotal>
+			</taxLevel>
+		</totalTax>
+	</transaction>
+	<footer>
+		<text>Öppet köp 14 dagar mot kvitto</text>
+		<text>(gäller ej specialbeställningar)</text>
+		<text>The Uppsala English Bookshop</text>
+		<text>** THANK YOU FOR YOUR CUS...</text>
+		<text>*** ORIGINAL</text>
+		<line>
+			<lineId>00</lineId>
+		</line>
+		<receiptDate>2018-09-17T17:09:00</receiptDate>
+		<receiptNumber>181867</receiptNumber>
+	</footer>
+</receipt>

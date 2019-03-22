@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receipt
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="schema.xsd">
+	<header>
+		<image>
+			<src>yoursourcehere.xxx</src>
+			<height units="xxx"></height>
+			<width units="xxx"></width>
+			<title>yourlogonamehere</title>
+		</image>
+		<storeName>MATBODEN EKTORP C</storeName>
+		<address>
+			<street>EKTORPSVÄGEN 4</street>
+			<city>NACKA</city>
+			<postalCode>13147</postalCode>
+		</address>
+		<organizationNumber>556712-8508</organizationNumber>
+		<phone>08-716 13 80</phone>
+		<text>kr</text>
+	</header>
+	<transaction>
+		<items>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>1</itemId>
+					<itemName>RUSH ANANAS</itemName>
+					<itemPrice currency="SEK">13,95</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">13,95</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+					<itemAddon>
+						<addonName>+ PANT</addonName>
+						<addonPrice>1,00</addonPrice>
+					</itemAddon>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>2</itemId>
+					<itemName>DIGESTIVE EKO</itemName>
+					<itemPrice currency="SEK">25,95</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="">25,95</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>3</itemId>
+					<itemName>RAMLÖSA CITRUS</itemName>
+					<itemPrice currency="SEK">12,95</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">12,95</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+					<itemAddon>
+						<addonName>+ PANT</addonName>
+						<addonPrice>1,00</addonPrice>
+					</itemAddon>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>4</itemId>
+					<itemName>RED DEVIL</itemName>
+					<itemPrice currency="SEK">14,95</itemPrice>
+					<itemQuantity>4</itemQuantity>
+					<totalItemPrice currency="">59,80</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+		</items>
+		<discounts>
+			<text>Ölkorv 3 för 39:-</text>
+			<discountAmount>5,85</discountAmount>
+		</discounts>
+		<text>ATT BETALA SEK (7 ARTIKLAR)</text>
+		<totalItems>7</totalItems>
+		<amountDue currency="SEK">108,80</amountDue>
+		<paymentDetails>
+			<card>
+				<amountReceived currency="SEK">108,80</amountReceived>
+				<cardType>Debit MasterCard</cardType>
+				<authMethod>Personlig kod</authMethod>
+				<storeId>715219</storeId>
+				<terminal>3 / 61203190</terminal>
+				<aid>A0000000041010</aid>
+				<transactionDate>2018-08-12T18:42:22</transactionDate>
+				<cardNumber>************3777</cardNumber>
+				<transactionType>KORTKÖP</transactionType>
+				<sweRef>Ca1 7 000 SWE 831334</sweRef>
+				<ref>612031901527</ref>
+				<tvr>0000001000</tvr>
+				<tsi>E800</tsi>
+			</card>
+			<text>BELOPP GODKÄNT AV KUND</text>
+			<text>SPARA KVITTOT, KUNDENS EXEMPLAR</text>
+			<text>TILLBAKA SEK</text>
+			<text>0.00</text>
+		</paymentDetails>
+		<totalTax>
+			<taxLevel>
+				<vatPercentage>12</vatPercentage>
+				<vatTotal>11,66</vatTotal>
+				<net>97,14</net>
+				<gross>108,80</gross>
+			</taxLevel>
+		</totalTax>
+	</transaction>
+	<footer>
+		<text>Öppettider:</text>
+		<text>Mån-Lör 8-21</text>
+		<text>Sön 8-20</text>
+		<text>Tack och välkommen åter!</text>
+		<cashier>
+			<cashierId>121</cashierId>
+			<cashierName>Andreas</cashierName>
+		</cashier>
+		<receiptDate>2018-08-12T18:42:19</receiptDate>
+		<receiptNumber>003-16169 [601559]</receiptNumber>
+		<controlUnit>RIHTT100710002986</controlUnit>
+	</footer>
+</receipt>

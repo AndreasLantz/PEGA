@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<receipt
+xmlns="https://andreaslantz.github.io/PEGA/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://andreaslantz.github.io/PEGA/ https://andreaslantz.github.io/PEGA/schema.xsd">
+	<header>
+		<image>
+			<src></src>
+			<height units=""></height>
+			<width units=""></width>
+			<title></title>
+		</image>
+		<storeName></storeName>
+		<address>
+			<street></street>
+			<city></city>
+			<postalCode></postalCode>
+		</address>
+		<organizationNumber></organizationNumber>
+		<registrationId></registrationId>
+		<email></email>
+		<phone></phone>
+		<text></text>
+		<text></text>
+		<text></text>
+	</header>
+	<transaction>
+		<items>
+				<item>
+					<transactionType></transactionType>
+					<itemId></itemId>
+					<itemName></itemName>
+					<itemPrice currency=""></itemPrice>
+					<itemQuantity></itemQuantity>
+					<totalItemPrice currency=""></totalItemPrice>
+					<itemDiscount>
+						<text></text>
+						<discountPercent></discountPercent>
+						<fixedAmount currency=""></fixedAmount>
+						<discountQuantity></discountQuantity>
+						<totalDiscount></totalDiscount>
+					</itemDiscount>
+					<vat>
+						<vatPercent></vatPercent>
+					</vat>
+					<itemAddon>
+						<addonName></addonName>
+						<addonPrice></addonPrice>
+					</itemAddon>
+				</item>
+				<item>
+					<transactionType></transactionType>
+					<itemId></itemId>
+					<itemName></itemName>
+					<itemPrice currency=""></itemPrice>
+					<itemQuantity></itemQuantity>
+					<totalItemPrice currency=""></totalItemPrice>
+					<itemDiscount>
+						<text></text>
+						<discountPercent></discountPercent>
+						<fixedAmount currency=""></fixedAmount>
+						<discountQuantity></discountQuantity>
+						<totalDiscount></totalDiscount>
+					</itemDiscount>
+					<vat>
+						<vatPercent></vatPercent>
+					</vat>
+					<itemAddon>
+						<addonName></addonName>
+						<addonPrice></addonPrice>
+					</itemAddon>
+				</item>
+		</items>
+		<text></text>
+		<text></text>
+		<discounts>
+			<text></text>
+			<discountAmount></discountAmount>
+		</discounts>
+		<text></text>
+		<text></text>
+		<totalItems></totalItems>
+		<amountDue currency=""></amountDue>
+		<paymentDetails>
+			<cash>
+				<amountReceived currency=""></amountReceived>
+				<change currency=""></change>
+			</cash>
+			<card>
+				<amountReceived currency=""></amountReceived>
+				<cardType></cardType>
+				<authMethod></authMethod>
+				<storeId></storeId>
+				<terminal></terminal>
+				<aid></aid>
+				<transactionDate></transactionDate>
+				<cardNumber></cardNumber>
+				<transactionType></transactionType>
+				<sweRef></sweRef>
+				<ref></ref>
+				<tvr></tvr>
+				<tsi></tsi>
+				<runNumber></runNumber>
+				<contactless></contactless>
+			</card>
+			<text></text>
+			<text></text>
+		</paymentDetails>
+		<text></text>
+		<text></text>
+		<totalTax>
+			<taxLevel>
+				<vatPercentage></vatPercentage>
+				<vatTotal></vatTotal>
+				<net></net>
+				<gross></gross>
+			</taxLevel>
+			<taxLevel>
+				<vatPercentage></vatPercentage>
+				<vatTotal></vatTotal>
+				<net></net>
+				<gross></gross>
+			</taxLevel>
+			<taxLevel>
+				<vatPercentage></vatPercentage>
+				<vatTotal></vatTotal>
+				<net></net>
+				<gross></gross>
+			</taxLevel>
+		</totalTax>
+	</transaction>
+	<footer>
+		<text></text>
+		<text></text>
+		<text></text>
+		<text></text>
+		<text></text>
+		<cashier>
+			<cashierId></cashierId>
+			<cashierName></cashierName>
+		</cashier>
+		<line>
+			<text></text>
+			<lineId></lineId>
+		</line>
+		<receiptDate></receiptDate>
+		<receiptNumber></receiptNumber>
+		<controlUnit></controlUnit>
+	</footer>
+</receipt>

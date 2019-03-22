@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receipt
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="schema.xsd">
+	<header>
+		<image>
+			<src>yoursourcehere.xxx</src>
+			<height units="xxx"></height>
+			<width units="xxx"></width>
+			<title>yourlogonamehere</title>
+		</image>
+		<storeName>Willys Hemma</storeName>
+		<address>
+			<city>Saltsjöbaden</city>
+		</address>
+		<organizationNumber>556163-2232</organizationNumber>
+		<phone>08-7480830</phone>
+	</header>
+	<transaction>
+		<items>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>1</itemId>
+					<itemName>FLÄSKFILE 540G</itemName>
+					<itemPrice currency="SEK">22,90</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">22,90</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>2</itemId>
+					<itemName>FELIX HALLONSYLT 250G</itemName>
+					<itemPrice currency="SEK">19,90</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">19,90</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>3</itemId>
+					<itemName>TIP TOP</itemName>
+					<itemPrice currency="SEK">25,00</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">25,00</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>4</itemId>
+					<itemName>SMABI MATLÅDA</itemName>
+					<itemPrice currency="SEK">15,90</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">15,90</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>5</itemId>
+					<itemName>PLASTKASSE VIT</itemName>
+					<itemPrice currency="SEK">2,00</itemPrice>
+					<itemQuantity>2</itemQuantity>
+					<totalItemPrice currency="SEK">4,00</totalItemPrice>
+					<vat>
+						<vatPercent>25</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>6</itemId>
+					<itemName>KVISTTOMATER</itemName>
+					<itemPrice currency="SEK">42,90</itemPrice>
+					<itemQuantity>0,570</itemQuantity>
+					<totalItemPrice currency="SEK">24,45</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>7</itemId>
+					<itemName>AVOKADO</itemName>
+					<itemPrice currency="SEK">13,90</itemPrice>
+					<itemQuantity>2</itemQuantity>
+					<totalItemPrice currency="SEK">27,80</totalItemPrice>
+					<itemDiscount>
+						<text>2 * Rabatt:AVOKADO</text>
+						<discountPercent></discountPercent>
+						<fixedAmount currency="">3</fixedAmount>
+						<discountQuantity>2</discountQuantity>
+						<totalDiscount>6</totalDiscount>
+					</itemDiscount>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>8</itemId>
+					<itemName>POTATIS FAST</itemName>
+					<itemPrice currency="SEK">11,90</itemPrice>
+					<itemQuantity>1,475</itemQuantity>
+					<totalItemPrice currency="SEK">17,55</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>9</itemId>
+					<itemName>GRÄDDFIL 3DL EKO</itemName>
+					<itemPrice currency="SEK">25,60</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">25,60</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>10</itemId>
+					<itemName>GREVÉ 12 MÅN 28%</itemName>
+					<itemPrice currency="SEK">124,00</itemPrice>
+					<itemQuantity>0,647</itemQuantity>
+					<totalItemPrice currency="SEK">80,23</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>11</itemId>
+					<itemName>KALLES KAVIAR 300G</itemName>
+					<itemPrice currency="SEK">26,50</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">26,50</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>12</itemId>
+					<itemName>KOTLETT CA450G</itemName>
+					<itemPrice currency="SEK">105,00</itemPrice>
+					<itemQuantity>0,494</itemQuantity>
+					<totalItemPrice currency="SEK">51,87</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>13</itemId>
+					<itemName>EXTRA STRONG MINT</itemName>
+					<itemPrice currency="SEK">14,90</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">14,90</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+		</items>
+		<text>Totalt 17 varor</text>
+		<totalItems>17</totalItems>
+		<text>Totalt</text>
+		<amountDue currency="SEK">356,87</amountDue>
+		<paymentDetails>
+			<card>
+				<amountReceived currency="SEK">356,87</amountReceived>
+				<cardType>Debit MasterCard</cardType>
+				<authMethod>Personlig kod</authMethod>
+				<storeId>2293561</storeId>
+				<terminal>4 / 00083259</terminal>
+				<aid>A0000000041010</aid>
+				<transactionDate>2018-10-04T12:05:10</transactionDate>
+				<cardNumber>************3777</cardNumber>
+				<transactionType>KÖP</transactionType>
+				<sweRef>KA1 6 000 SWE 115520</sweRef>
+				<ref>000032595047</ref>
+				<tvr>0000048000</tvr>
+				<tsi>E8000</tsi>
+				<contactless>KONTAKTLÖS</contactless>
+			</card>
+		</paymentDetails>
+		<totalTax>
+			<taxLevel>
+				<vatPercentage>12</vatPercentage>
+				<vatTotal>37,81</vatTotal>
+				<net>315,06</net>
+				<gross>352,87</gross>
+			</taxLevel>
+			<taxLevel>
+				<vatPercentage>25</vatPercentage>
+				<vatTotal>0,80</vatTotal>
+				<net>3,20</net>
+				<gross>4,00</gross>
+			</taxLevel>
+		</totalTax>
+	</transaction>
+	<footer>
+		<text>SPARA KVITTOT</text>
+		<text>Välkommen åter!</text>
+		<text>Mån-Lör 8-21 Sön 9-21</text>
+		<text>Tel: 08-7480830</text>
+		<text>Du betjänades av</text>
+		<cashier>
+			<cashierId>41</cashierId>
+			<cashierName>Sofia</cashierName>
+		</cashier>
+		<line>
+			<text>Kassa</text>
+			<lineId>4/169</lineId>
+		</line>
+		<receiptDate>2018-10-04T12:05:10</receiptDate>
+	</footer>
+</receipt>

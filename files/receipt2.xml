@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receipt
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="schema.xsd">
+	<header>
+		<image>
+			<src>yoursourcehere.xxx</src>
+			<height units="xxx"></height>
+			<width units="xxx"></width>
+			<title>yourlogonamehere</title>
+		</image>
+		<storeName>Jarlaberg Nacka</storeName>
+		<organizationNumber>969743-1519</organizationNumber>
+		<phone>08-7184666</phone>
+		<text>ÖPPET FÖR DIG!</text>
+		<text>ALLA DAGAR</text>
+		<text>9-20</text>
+	</header>
+	<transaction>
+		<items>
+				<item>
+					<transactionType>Sale</transactionType>
+					<itemId>1</itemId>
+					<itemName>MJÖLK EKOLOGISK 3%</itemName>
+					<itemPrice currency="SEK">14,95</itemPrice>
+					<itemQuantity>1</itemQuantity>
+					<totalItemPrice currency="SEK">14,95</totalItemPrice>
+					<vat>
+						<vatPercent>12</vatPercent>
+					</vat>
+				</item>
+		</items>
+		<text>Totalt 1 vara</text>
+		<totalItems>1</totalItems>
+		<text>Totalt</text>
+		<amountDue currency="SEK">14,95</amountDue>
+		<paymentDetails>
+			<card>
+				<amountReceived currency="SEK">14,95</amountReceived>
+				<cardType>Debit Mastercard</cardType>
+				<authMethod>Personlig Kod</authMethod>
+				<storeId>532697</storeId>
+				<terminal>1 / 00004098</terminal>
+				<aid>A0000000041010</aid>
+				<transactionDate>2018-08-11T15:12:27</transactionDate>
+				<cardNumber>************3777</cardNumber>
+				<transactionType>KÖP</transactionType>
+				<sweRef>Ca1 6 000 SWE 314184</sweRef>
+				<ref>000040983429</ref>
+				<tvr>0000001000</tvr>
+				<tsi>6800</tsi>
+			</card>
+		</paymentDetails>
+		<totalTax>
+			<taxLevel>
+				<vatPercentage>12</vatPercentage>
+				<vatTotal>1,60</vatTotal>
+				<net>13,35</net>
+				<gross>14,95</gross>
+			</taxLevel>
+		</totalTax>
+	</transaction>
+	<footer>
+		<text>SPARA KVITTOT</text>
+		<text>Välkommen åter</text>
+		<text>TEL 08-718 46 66</text>
+		<text>FAX 08-718 46 66</text>
+		<text>Du betjänades av</text>
+		<cashier>
+			<cashierName>Dashti</cashierName>
+		</cashier>
+		<line>
+			<text>Kassa</text>
+			<lineId>1/186</lineId>
+		</line>
+		<receiptDate>2018-08-11T15:14:00</receiptDate>
+	</footer>
+</receipt>
