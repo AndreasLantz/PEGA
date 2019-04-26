@@ -1,68 +1,116 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3.0, minimum-scale=1">
-	<title>Härnö Småmaskinsservice</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
-	<script src="js/jquery.js"></script> <!-- jQuery library included for automatic onLoad delay for overlays -->
-	<script src="js/navBtnToggle.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+<link rel="manifest" href="favicons/site.webmanifest">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#157efb">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery library included for automatic onLoad delay for overlays -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53008255-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53008255-2');
+</script>
+<title>XML Project</title>
 </head>
 
 <body>
 
 	<div id="header">
-		<p>Härnö Småmaskinsservice</p>
-		<div id="menu">		
-			<p><a href="index.html">Startsida</a></p>
-			<p><a href="services.html">Tjänster</a></p>
-			<p><a href="index.html">Kontakt</a></p>
-		</div>
-		
-		<div id="navBtn" onclick="myFunction(this)">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
-			</div>
-			
-			
-	</div> <!-- Id header end -->
-	
-	<div id="nav">
-			<a href="index.html">Startsida</a>
-			<a href="services.html">Tjänster</a>
-			<a href="index.html">Kontakt</a>
+		<a href="index.html"><p>Andreas Lantz XML</p></a>
+		<p id="language">Språk</p>
+		<a id="se" href="index.html"><img class="flagItem" src="img/se.svg" /></a>
+		<a id="en" href="en.html"><img class="flagItem" src="img/en.svg" /></a>
 	</div>
-		
-		<script>
-$( "#navBtn" ).click(function() {
 
-  $( "#nav" ).slideToggle("slow");
-});
-</script>
-<script>
-function myFunction(x) {
-  x.classList.toggle("change");
-}
-</script>
-	<div id="mainContent">
-	
-		<img id="indexImage" src="img/face.jpg" />
-		
-		<div id="indexParagraph">
-				<h1>Välkommen!</h1>
-				<p>Välkommen till Härnö Småmaskinsservice! Vi reparerar och underhåller de flesta små motordrivna maskiner du kan tänkas ha i ditt garage. Mitt namn är Roger, och jag kommer personligen se till att varje maskin du lämnar in till oss kommer tillbaka i absolut toppskick!</p>
-			<a href="services.html"><button>Kom igång!</button></a>
+	<div id="wrapper"> <!-- Tile grid wrapper start -->
+		<div id="tile1" class="tile">
+			<img src="img/xml.svg" class="tileImage" />
+			<a href="#popup1"><div class="overlay">
+				<div class="overlayText">Ladda ned individuella filer</div>
+			</div></a>
 		</div>
+		<div id="tile2" class="tile"> 
+			<img src="img/doc.svg" class="tileImage" />
+			<a href="#popup2"><div class="overlay">
+				<div class="overlayText">Ladda ned projektbeskrivning</div>
+			</div></a>
+		</div>
+		<div id="tile3" class="tile"> 
+			<img src="img/zip.svg" class="tileImage" />
+			<a href="files/files.zip" download="filer"><div class="overlay">
+				<div class="overlayText">Ladda ned allt som .ZIP</div>
+			</div></a>
+		</div>
+	</div> <!-- Tile grid wrapper end -->
 	
-	</div><!-- mainContent wrapper end -->
+	<div id="popup1" class="popup">
+		<div class="popupContent">
+			<h2>Välj din fil nedan</h2>
+			<a class="popupClose" href="#">&times;</a>
+			
+			<a href="files/schema.xsd" download="schema"><div class="downloadItem">
+				<p>XSD Schema</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="files/structure.xml" download="struktur"><div class="downloadItem">
+				<p>Tom XML-struktur</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="files/receipt1.xml" download="kvitto1"><div class="downloadItem">
+				<p>XML-struktur förifylld - Willys Kvitto</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="files/receipt2.xml" download="kvitto2"><div class="downloadItem">
+				<p>XML-struktur förifylld - Tempo Kvitto</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="files/receipt3.xml" download="kvitto3"><div class="downloadItem">
+				<p>XML-struktur förifylld - TeB Kvitto</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="files/receipt4.xml" download="kvitto4"><div class="downloadItem">
+				<p>XML-struktur förifylld - Matboden Kvitto</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+		</div>
+	</div>
+	
+	<div id="popup2" class="popup">
+		<div class="popupContent">
+			<h2>Välj din fil nedan</h2>
+			<a class="popupClose" href="#">&times;</a>
+			<a href="files/projectDescription.docx" download="projectDescription"><div class="downloadItem">
+				<p>Projektbeskrivning som .docx</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+			
+			<a href="files/projectDescription.pdf" download="projectDescription"><div class="downloadItem">
+				<p>Projektbeskrivning som .pdf</p>
+				<img src="img/downloadIcon.svg" />
+			</div></a>
+		</div>
+	</div>
 	
 	<div id="footer">
-		<p>Footer placeholder text</p>
+		<p>&copy;Andreas Lantz 2019</p>
 	</div>
-
+	
 </body>
 
 </html>
